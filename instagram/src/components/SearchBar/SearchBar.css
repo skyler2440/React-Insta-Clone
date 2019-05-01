@@ -1,0 +1,26 @@
+.s-b-wrapper{
+    border-bottom: 1px solid #333;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.img-wrapper{
+    height: 50px;
+}
+img{
+    height: 100%;
+    margin-top: 1rem;
+}
+.social-wrapper{
+    display:flex;
+}
+input{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+i{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
