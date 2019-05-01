@@ -4,6 +4,7 @@ import IGLogo from '../../assets/iglogo.png';
 import './SearchBar.css'
 
 const SearchBar = props => {
+    console.log('Search Bar Props', props)
     return (
         <div className='s-b-wrapper'>
             <div className='img-wrapper'>
@@ -11,7 +12,7 @@ const SearchBar = props => {
             </div>
             <div>
                 {/* <form onSubmit={search}> */}
-                <input type='text' placeholder='Search' onKeyDown={props.searchPost}/>
+                <input type='text' placeholder='Search' onChange={props.changeHandler} value={props.post}/>
                 {/* </form> */}
             </div>
             <div className='social-wrapper'>
