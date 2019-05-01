@@ -1,0 +1,25 @@
+.cmt-text{
+    padding: 2px;
+    text-align: left;
+    margin-left: 4px;
+    /* border-bottom: 1px solid black; */
+}
+.cmt-text-wrapper{
+    /* border-bottom: 1px solid black; */
+
+}
+.comment{
+    font-weight: 300;
+    font-size: 14px;
+}
+.user{
+    font-weight: 500;
+    font-size: 12px;
+}
+.inpt-txt{
+    width: 96%;
+    border: none;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: .5rem;
+}

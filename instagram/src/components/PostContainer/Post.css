@@ -1,0 +1,31 @@
+.post-cnt-wrapper{
+    height: 500px;
+    width: 50%;
+    margin: 5px auto;
+}
+.post-border {
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+.post-img-wrapper{
+height: 100%;
+width: 100%;
+}
+.post-img{
+    width: 100%;
+}
+.post-hdr{
+    display: flex;
+}
+.post-thmb-wrapper{
+    height: 50px;
+    width: 50px;
+    padding: 1rem;
+}
+.post-thmb {
+    height: 100%;
+    border-radius: 50%;
+}
+.post-name{
+    margin-top: 1.7rem;
+}
