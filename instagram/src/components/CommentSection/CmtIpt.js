@@ -3,8 +3,14 @@ import React from 'react';
 const CommentInput = props => {
     return (
         // <span className='cmt-text-wrapper'></span>
-        <form>
-            <input className='inpt-txt' type="text" placeholder='Add a Comment...'/>
+        <form onSubmit={props.submitComment}>
+            <input 
+            className='inpt-txt' 
+            type="text" 
+            value={props.comment}
+            placeholder='Add a Comment...'
+            onChange={props.changeComment}
+            />
         </form>
         
     );
