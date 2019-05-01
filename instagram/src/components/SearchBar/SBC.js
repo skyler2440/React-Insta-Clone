@@ -9,7 +9,23 @@ const SearchBar = () => {
             <div className='img-wrapper'>
                 <img alt='insta logo' src={IGLogo} className='logo-img' />
             </div>
+            <div>
+                {/* <form onSubmit={search}> */}
+                <input type='text' placeholder='Search' />
+                {/* </form> */}
+            </div>
+            <div className='social-wrapper'>
+            <div className='social'>
+            <i class="far fa-compass"></i>
+            </div>
+            <div className='social'>
+            <i class="far fa-heart"></i>
+            </div>
+            <div className='social'>
+            <i class="far fa-circle"></i>
+            </div>
         </div>
+</div>
     );
 };
 
