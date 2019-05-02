@@ -1,34 +1,7 @@
-.post-cont-wrapper{
-    height: 500px;
-    width: 50%;
-    margin: 5px auto;
-}
-.post-border {
-    border: 1px solid black;
-    margin-top: 1rem;
-    width: 50%;
-    margin: 1rem auto;
-
-}
-.post-img-wrapper{
-height: 100%;
-width: 100%;
-}
-.post-img{
-    width: 100%;
-}
-.post-hdr{
-    display: flex;
-}
-.post-thmb-wrapper{
-    height: 50px;
-    width: 50px;
-    padding: 1rem;
-}
-.post-thmb {
+.post-thumb {
     height: 100%;
     border-radius: 50%;
-}
-.post-name{
-    margin-top: 1.7rem;
-}
+  }
+  .like-section {
+    display: flex;
+  }
